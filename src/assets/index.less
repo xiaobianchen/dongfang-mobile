@@ -1,0 +1,45 @@
+@import "//at.alicdn.com/t/font_871334_jrn568wte6.css";
+
+html {
+  height: 100%;
+  font-size: 50px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  user-select: none;
+}
+
+div {
+  user-select: none;
+}
+
+body {
+  height: 100%;
+  background: #F9F9FC;
+  -webkit-overflow-scrolling: touch;
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  margin: 0;
+  overflow: hidden;
+  #react-app {
+    height: 100%;
+    overflow: hidden;
+    > [data-reactroot] {
+      height: 100%;
+      overflow: hidden;
+    }
+    > div {
+      height: 100%;
+      overflow: hidden;
+    }
+    .am-list-body {
+      background: transparent;
+      &::before {
+        content: none !important;
+      }
+      &::after {
+        content: none !important;
+      }
+    }
+  }
+}
