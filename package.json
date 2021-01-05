@@ -8,7 +8,7 @@
   "private": true,
   "dependencies": {
     "antd-mobile": "^2.2.2",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "history": "^4.7.2",
     "inversify": "^4.13.0",
     "inversify-binding-decorators": "^3.2.0",
